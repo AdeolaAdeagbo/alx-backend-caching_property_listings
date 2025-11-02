@@ -1,0 +1,35 @@
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+caching_env/
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+db.sqlite3
+*.pot
+*.pyc
+media/
+staticfiles/
+
+# Environment
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+postgres_data/
